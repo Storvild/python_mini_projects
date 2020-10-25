@@ -18,6 +18,7 @@ Convert MDB to SQLITE
 
     python convert_mdb_to_sqlite.py sample_mdb_2003.mdb
 или    
+
     py convert_mdb_to_sqlite.py sample_mdb_2003.mdb
 
 где sample_mdb_2003.mdb это Ваш файл Access
@@ -25,3 +26,9 @@ Convert MDB to SQLITE
 Если файл запаролен, то пароль указывается третьим параметром:
     
     python convert_mdb_to_sqlite.py sample_mdb_2003.mdb mypass
+
+
+Ссылки
+------
+
+В проекте использован модуль https://github.com/jiangwen365/pypyodbc для работы с ODBC
